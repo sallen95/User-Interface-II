@@ -131,3 +131,29 @@ nav a:hover{
     width:75%;
 }
 
+.image-text{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.image-text div{
+    padding:2% 0 0 7.5%;
+}
+
+/*footer styling*/
+
+footer{
+    background-color:gainsboro;
+    padding:5%;
+    text-align:center;
+}
+
+footer div{
+    text-align:center;
+    font-size:1.8rem;
+}
+
+footer button{
+    font-size:1.6rem;
+}
