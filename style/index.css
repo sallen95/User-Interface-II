@@ -1,1 +1,133 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*{
+    box-sizing:border-box;
+    border:1px solid grey;
+    max-width:100%;
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'PT Serif', serif;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size:6rem;
+    margin-left:1%;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size:4rem;
+}
+
+
+section{
+    padding:2% 0;
+}
+
+/*Styles for the header*/
+header{
+    background-color:gainsboro;
+}
+
+nav{
+    display:flex;
+    margin-left:2.5%;
+}
+
+nav a{
+    display:inline-block;
+    text-decoration:none;
+    width:7.5%;
+    background-color:white;
+    border:2px blue;
+    text-align:center;
+    color:black;
+    margin-bottom:2%;
+    padding:.3% 0;
+}
+
+nav a:hover{
+    color:white;
+    background-color:black;
+}
+
+
+/*About section styles*/
+#about{
+    display:flex;
+}
+
+.main-image{
+    margin:0 1%;
+    width:60%;
+}
+
+.main-image img{
+    width:100%;
+}
+
+.about-text{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+    width:40%;
+}
+
+.about-text p{
+    padding:3% 0;
+}
+
+.button-projects{
+    width:25%;
+    padding:1% 0;
+    font-size:1.6rem;
+}
+
+/*Images section styling*/
+
+#projects{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#projects div{
+    width:25%;
+    margin-bottom:4%;
+}
+
+#projects div img{
+    padding:0 5%;
+    width:75%;
+}
+
